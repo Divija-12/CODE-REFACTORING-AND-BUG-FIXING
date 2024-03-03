@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(215, 174, 121);
+}
+#NoteForm{
+    height: 300px; 
+    width: 500px; 
+    margin-left: 550px; 
+    margin-right: 550px; 
+    background-color: rgb(193, 153, 103); 
+    border-radius: 5px;
+}
+#NoteHeading{
+    background-color: rgb(81, 58, 25); 
+    color: aliceblue; 
+    text-align: center; 
+    font-style: oblique;
+}
+#TitleText{
+    height: 30px; 
+    width: 450px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    border-radius: 4px;
+}
+#NoteText{
+    height: 80px; 
+    width: 450px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    border-radius: 4px;
+}
+#SubmitButton{
+    height: 50px;
+    width: 120px; 
+    margin-left: 200px; 
+    margin-right: 200px; 
+    border-radius: 4px;
+}
+li{
+    font-style: italic;
+    font-size: medium;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="noteStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id = "body">
+    <form action="/" method="post"id="NoteForm">
+        <h1 id="NoteHeading">Write Your Thoughts</h1>
+        <input id="TitleText" type="text" name="title" placeholder="Add title"><br><br>
+        <input id="NoteText" type="text" name="note" placeholder="Enter a note"><br><br>
+        <button id="SubmitButton" type="submit">Add Note</button>
+    </form>
+     <br>
+     <br>
+    <h1>PREVIOUS NOTES</h1>
+    <ul>
+        {% for item in notes.items() %}
+           <li>{{ item[0] }} : <p >{{ item[1] }}</p></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
